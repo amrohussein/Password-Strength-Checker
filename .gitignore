@@ -1,0 +1,53 @@
+# ─── OS Files ───────────────────────────────────────────
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# ─── Editor & IDE ────────────────────────────────────────
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.sublime-workspace
+*.sublime-project
+
+# ─── Node (if you ever add tooling) ─────────────────────
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+.pnpm-debug.log*
+
+# ─── Build outputs ───────────────────────────────────────
+dist/
+build/
+out/
+.cache/
+
+# ─── Environment & Secrets ───────────────────────────────
+.env
+.env.local
+.env.*.local
+*.key
+*.pem
+secrets.*
+
+# ─── Logs ────────────────────────────────────────────────
+*.log
+logs/
+
+# ─── Misc ────────────────────────────────────────────────
+*.bak
+*.tmp
+*.temp
+.htaccess
